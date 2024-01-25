@@ -1,0 +1,33 @@
+.statistics-table-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .statistics-table {
+    border-collapse: collapse;
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  .statistics-table th, .statistics-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    width: 200px;
+    white-space: initial;
+  
+  }
+  
+  .statistics-table th {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .statistics-table td:first-child, .statistics-table th:first-child {
+    text-align: center;
+    font-weight: bold;
+  
+  }
